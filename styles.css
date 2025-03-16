@@ -1,4 +1,40 @@
-/* Profile Photo Styling */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #2c3e50; /* Dark blue-gray */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #ecf0f1; /* Light gray */
+}
+
 .profile {
     display: flex;
     align-items: center;
@@ -19,42 +55,7 @@
     text-align: left;
 }
 
-.profile-info h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-.profile-info p {
-    margin: 5px 0 0;
-    font-size: 1.2em;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header p {
-    margin: 5px 0 0;
-    font-size: 1.2em;
-}
-
+/* Navigation Styles */
 nav ul {
     list-style: none;
     padding: 0;
@@ -70,25 +71,35 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+nav ul li a:hover {
+    color: #1abc9c; /* Teal green */
 }
 
+/* Section Styles */
 section {
-    padding: 20px 0;
+    padding: 40px 0;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark blue-gray */
+    border-bottom: 2px solid #1abc9c; /* Teal green */
     padding-bottom: 10px;
 }
 
 section h3 {
+    font-size: 1.5em;
     margin-top: 20px;
+    color: #34495e; /* Darker blue-gray */
 }
 
 ul {
@@ -96,74 +107,63 @@ ul {
     margin: 10px 0 20px 20px;
 }
 
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Contact Section Styles */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list i {
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: #2c3e50; /* Dark blue-gray */
+}
+
+.contact-list a {
+    color: #2c3e50; /* Dark blue-gray */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: #1abc9c; /* Teal green */
+}
+
+/* Footer Styles */
 footer {
-    background: #333;
+    background: #2c3e50; /* Dark blue-gray */
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 20px 0;
+    margin-top: 40px;
 }
 
 footer p {
     margin: 0;
+    font-size: 1em;
 }
 
-/* Contact Section Styling */
-.contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.contact-list li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-.contact-list i {
-    font-size: 1.2em;
-    margin-right: 10px;
-    color: #333;
-}
-
-.contact-list a {
-    color: #333;
+/* Certifications Link Styles */
+#certifications a {
+    color: #1abc9c; /* Teal green */
     text-decoration: none;
-    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-.contact-list a:hover {
-    color: #0077b5; /* LinkedIn blue color */
-    text-decoration: underline;
-}
-
-/* Contact Section Styling */
-.contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.contact-list li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-.contact-list i {
-    font-size: 1.2em;
-    margin-right: 10px;
-    color: #333;
-}
-
-.contact-list a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
-.contact-list a:hover {
-    color: #0077b5; /* LinkedIn blue color */
-    text-decoration: underline;
+#certifications a:hover {
+    color: #16a085; /* Darker teal green */
 }
