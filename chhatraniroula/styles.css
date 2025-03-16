@@ -1,0 +1,169 @@
+/* Profile Photo Styling */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: square;
+    margin: 10px 0 20px 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Contact Section Styling */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list i {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #333;
+}
+
+.contact-list a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.contact-list a:hover {
+    color: #0077b5; /* LinkedIn blue color */
+    text-decoration: underline;
+}
+
+/* Contact Section Styling */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list i {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #333;
+}
+
+.contact-list a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.contact-list a:hover {
+    color: #0077b5; /* LinkedIn blue color */
+    text-decoration: underline;
+}
